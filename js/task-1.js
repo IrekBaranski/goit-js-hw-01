@@ -1,8 +1,8 @@
-//Task 1: Ordering droids//
+//Task 1: Ordering droids
 
 function makeTransaction(quantity, pricePerDroid) {
-    const totalPrice = quantity * pricePerDroid;
-    return 'You ordered ${quantity} droids worth ${totalPrice} credits!'
+    let totalPrice = quantity * pricePerDroid;
+    return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
 }
 
 console.log(makeTransaction(5, 3000)); // Outputs: "You ordered 5 droids worth $1500 credits!"
